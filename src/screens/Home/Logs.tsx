@@ -16,7 +16,7 @@ export function Logs({data, isPaused, setIsPaused}: Props): React.ReactElement {
         <Text>Updates for {item.updatesFor}</Text>
         {item.stocks.map((stock) => (
           <Text key={stock.code}>
-            {stock.code} ${stock.price}
+            {stock.code} : ${stock.price}
           </Text>
         ))}
       </View>
